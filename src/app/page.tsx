@@ -102,14 +102,20 @@ export default function Home() {
                 title: "JSON to XML",
                 desc: "Transform JSON to XML format. Bridge modern APIs with legacy systems effortlessly.",
               },
+              {
+                icon: "🔍",
+                title: "JSON Diff",
+                desc: "Compare two JSON objects and find differences. See added, removed, and changed fields instantly.",
+                href: "/json-diff",
+              },
             ].map((tool) => (
-              <div key={tool.title} className="tool-card">
+              <a key={tool.title} href={"href" in tool ? (tool as {href:string}).href : "#"} className="tool-card block">
                 <div className="text-2xl mb-3">{tool.icon}</div>
                 <h3 className="font-semibold mb-2">{tool.title}</h3>
                 <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
                   {tool.desc}
                 </p>
-              </div>
+              </a>
             ))}
           </div>
         </div>

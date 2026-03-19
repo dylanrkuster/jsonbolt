@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/json-schema-validator",
     "/json-path-finder",
     "/blog",
+    "/blog/json-vs-xml",
+    "/blog/api-response-formatting",
     "/blog/best-json-formatters-2026",
     "/blog/json-to-yaml-guide",
     "/blog/json-schema-validation-guide",

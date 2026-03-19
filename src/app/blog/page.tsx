@@ -8,6 +8,20 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "json-vs-xml",
+    title: "JSON vs XML: Which Data Format Should You Use in 2026?",
+    description: "Comprehensive comparison of JSON vs XML — syntax, performance benchmarks, use cases, browser support, and when to choose each format.",
+    date: "June 28, 2026",
+    readTime: "12 min read",
+  },
+  {
+    slug: "api-response-formatting",
+    title: "How to Format and Debug API Responses: A Developer's Guide",
+    description: "Every tool and technique for formatting, pretty-printing, and debugging JSON API responses — curl, jq, DevTools, and more.",
+    date: "June 28, 2026",
+    readTime: "10 min read",
+  },
+  {
     slug: "json-schema-validation-guide",
     title: "JSON Schema Validation: The Complete Guide for Developers",
     description: "Learn JSON Schema from basics to advanced. Draft-07 keywords, practical examples, and how to validate JSON online.",

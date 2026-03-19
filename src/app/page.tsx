@@ -216,7 +216,15 @@ export default function Home() {
           >
             PolicyForge
           </a>{" "}
-          for free privacy policies.
+          for free privacy policies, or{" "}
+          <a
+            href="https://invoiceforge-cyan.vercel.app"
+            className="underline"
+            style={{ color: "var(--accent)" }}
+          >
+            InvoiceForge
+          </a>{" "}
+          for professional invoices.
         </p>
       </footer>
     </main>

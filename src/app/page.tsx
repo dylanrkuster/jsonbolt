@@ -108,6 +108,18 @@ export default function Home() {
                 desc: "Compare two JSON objects and find differences. See added, removed, and changed fields instantly.",
                 href: "/json-diff",
               },
+              {
+                icon: "📐",
+                title: "JSON Schema Validator",
+                desc: "Validate JSON documents against JSON Schema (Draft-07). Detailed error messages with paths and line numbers.",
+                href: "/json-schema-validator",
+              },
+              {
+                icon: "🧭",
+                title: "JSON Path Finder",
+                desc: "Explore JSON as an interactive tree. Click any node to get its JSONPath in dot and bracket notation.",
+                href: "/json-path-finder",
+              },
             ].map((tool) => (
               <a key={tool.title} href={"href" in tool ? (tool as {href:string}).href : "#"} className="tool-card block">
                 <div className="text-2xl mb-3">{tool.icon}</div>

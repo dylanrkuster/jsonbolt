@@ -13,6 +13,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/json-to-csv",
     "/json-to-xml",
     "/json-diff",
+    "/blog",
+    "/blog/best-json-formatters-2026",
+    "/blog/json-to-yaml-guide",
   ];
 
   return tools.map((path) => ({

@@ -208,7 +208,15 @@ export default function Home() {
           >
             SnapOG
           </a>{" "}
-          for beautiful social preview images.
+          for beautiful social preview images, or{" "}
+          <a
+            href="https://policyforge-blond.vercel.app"
+            className="underline"
+            style={{ color: "var(--accent)" }}
+          >
+            PolicyForge
+          </a>{" "}
+          for free privacy policies.
         </p>
       </footer>
     </main>

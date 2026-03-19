@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog",
     "/blog/best-json-formatters-2026",
     "/blog/json-to-yaml-guide",
+    "/blog/json-schema-validation-guide",
   ];
 
   return tools.map((path) => ({

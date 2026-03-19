@@ -8,6 +8,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "json-schema-validation-guide",
+    title: "JSON Schema Validation: The Complete Guide for Developers",
+    description: "Learn JSON Schema from basics to advanced. Draft-07 keywords, practical examples, and how to validate JSON online.",
+    date: "March 19, 2026",
+    readTime: "8 min read",
+  },
+  {
     slug: "best-json-formatters-2026",
     title: "7 Best JSON Formatters in 2026 (Free & Online)",
     description: "A comprehensive comparison of the best free online JSON formatters. Find the right tool for your workflow.",

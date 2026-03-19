@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "csv-parse": "^6.2.0",
     "csv-stringify": "^6.7.0",
     "js-yaml": "^4.1.1",

@@ -188,7 +188,15 @@ export default function Home() {
           >
             open source
           </a>
-          .
+          . Also try{" "}
+          <a
+            href="https://snapog-teal.vercel.app"
+            className="underline"
+            style={{ color: "var(--accent)" }}
+          >
+            SnapOG
+          </a>{" "}
+          for beautiful social preview images.
         </p>
       </footer>
     </main>
